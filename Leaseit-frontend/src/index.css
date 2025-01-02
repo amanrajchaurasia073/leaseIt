@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@font-face {
+    font-family: 'Wavefont';
+    src: url('/fonts/Wavefont.ttf') format('truetype'); /* Adjust the path as needed */
+    font-weight: normal;
+    font-style: normal;
+  }
