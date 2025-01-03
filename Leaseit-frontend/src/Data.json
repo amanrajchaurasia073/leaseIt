@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "Cozy Home",
+      "monthlyRent": 15000,
+      "address": "123 Main Street",
+      "location": "Bangalore, India",
+      "availability": "Available",
+      "imageUrl": "https://via.placeholder.com/300x200?text=Cozy+Home"
+    },
+    {
+      "id": 2,
+      "name": "Green PG",
+      "monthlyRent": 8000,
+      "address": "45 Park Avenue",
+      "location": "Delhi, India",
+      "availability": "Not Available",
+      "imageUrl": "https://via.placeholder.com/300x200?text=Green+PG"
+    },
+    {
+        "id": 2,
+        "name": "Green PG",
+        "monthlyRent": 8000,
+        "address": "45 Park Avenue",
+        "location": "Delhi, India",
+        "availability": "Not Available",
+        "imageUrl": "https://via.placeholder.com/300x200?text=Green+PG"
+    }
+  ]
+  

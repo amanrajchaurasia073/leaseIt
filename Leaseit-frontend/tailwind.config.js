@@ -7,6 +7,7 @@ export default {
       colors: {
         'teal-custom': '#008080',
         'teal-opacity': 'rgba(0, 128, 128, 0.21)',
+        'teal-55':'rgba(0, 128, 128, 0.55)',
         'golden-yellow': '#E8C81F',
       },
       fontFamily: {
