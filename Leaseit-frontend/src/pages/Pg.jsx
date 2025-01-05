@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import  { useState, useEffect } from "react";
+import  { useState, useEffect } from "react"
 
 const Pg = () => {
   const [pgData, setPgData] = useState([]);
@@ -35,6 +35,7 @@ const Pg = () => {
   useEffect(() => {
     const filtered = pgData.filter((pg) => {
       return (
+        pg.pgType === "PG" && // Ensure only PG cards are displayed
         (!filters.sharingType || pg.sharingType === filters.sharingType) &&
         (!filters.city || pg.city === filters.city) &&
         (!filters.area || pg.area === filters.area) &&
@@ -139,5 +140,4 @@ const Pg = () => {
   );
 };
 
-
-export default Pg
+export default Pg;
