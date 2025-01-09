@@ -1,10 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
 @font-face {
     font-family: 'Wavefont';
     src: url('/fonts/Wavefont.ttf') format('truetype'); /* Adjust the path as needed */
-    font-weight: normal;
+    /* font-weight: normal;
     font-style: normal;
+  } */ 
+
+  @font-face {
+    font-family: 'Wavefont';
+    src: url('/fonts/Wavefont.ttf') format('truetype');
+  }
+  body {
+    font-family: 'Wavefont', sans-serif;
+  }
+
+  @font-face {
+    font-family: 'Wavefont';
+    src: url('/fonts/wavefont.woff2') format('woff2'),
+         url('/fonts/wavefont.woff') format('woff'),
+         url('/fonts/wavefont.ttf') format('truetype');
   }

@@ -6,7 +6,7 @@ import Home from "./pages/Home"
 import Homes from "./pages/Homes"
 import Pg from "./pages/Pg"
 import Rooms from "./pages/Rooms"
-import Register from "./pages/Register"
+import Register from "./pages/Register";
 
 export default function App() {
   
