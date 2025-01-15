@@ -3,6 +3,7 @@ import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
+
 const Navbar = () => {
   const [isLoginOpen, setIsLoginOpen] = useState(false); // State for login modal
   const [user, setUser] = useState(null); // State for logged-in user
@@ -50,19 +51,19 @@ const Navbar = () => {
           <div className="space-x-10 font-wave">
             <Link
               to="/pg"
-              className="relative text-gray-700 text-lg font-medium hover:text-gray-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-blue-600 before:transition-all before:duration-300 hover:before:w-full"
+              className="relative text-gray-700 text-lg font-medium hover:text-gray-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-yellow-500 before:transition-all before:duration-300 hover:before:w-full"
             >
               PG
             </Link>
             <Link
               to="/rooms"
-              className="relative text-gray-700 text-lg font-medium hover:text-gray-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-blue-600 before:transition-all before:duration-300 hover:before:w-full"
+              className="relative text-gray-700 text-lg font-medium hover:text-gray-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-yellow-500 before:transition-all before:duration-300 hover:before:w-full"
             >
               Rooms
             </Link>
             <Link
               to="/homes"
-              className="relative text-gray-700 text-lg font-medium hover:text-gray-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-blue-600 before:transition-all before:duration-300 hover:before:w-full"
+              className="relative text-gray-700 text-lg font-medium hover:text-gray-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-yellow-500 before:transition-all before:duration-300 hover:before:w-full"
             >
               Homes
             </Link>
