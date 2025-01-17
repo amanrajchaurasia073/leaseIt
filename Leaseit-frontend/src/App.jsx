@@ -7,6 +7,8 @@ import Homes from "./pages/Homes"
 import Pg from "./pages/Pg"
 import Rooms from "./pages/Rooms"
 import Register from "./pages/Register";
+import CardDetails from "./components/CardDetails";
+import DefaultHomeView from "./components/DefaultHomeView";
 
 export default function App() {
   
@@ -19,6 +21,8 @@ export default function App() {
           <Route path="/rooms" element={<Rooms />} />
           <Route path="/homes" element={<Homes />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/" element={<DefaultHomeView />} />
+          <Route path="/home/:id" element={<CardDetails />} />
         </Routes>
       </Router>
     );
